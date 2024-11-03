@@ -1,0 +1,237 @@
+body { 
+    background-color: navajowhite; 
+    margin:0; 
+    /* font-family: 'Pacifico', cursive;  */
+    display:block; 
+    color:brown; 
+    flex-direction: row; 
+    font-family: Comic Sans MS, Comic Sans, cursive;
+} 
+ 
+.main { 
+    font-size: 30px; 
+    color:brown; 
+    border-right: medium solid black;   
+    border-bottom: medium solid black;  
+    display: flex; 
+     
+} 
+ 
+ 
+.header { 
+    border: medium solid black; 
+    border-width: 3px; 
+    font-size: 25px; 
+    color:brown; 
+    display:flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+ 
+.logo { 
+    display: flex; 
+    padding:0.7%; 
+    width: 100px;  
+    height: auto;  
+} 
+ 
+.defoult-text { 
+    color:brown; 
+    font-size: 20px; 
+    /* margin-right:3%; */ 
+    text-decoration: none; 
+ 
+} 
+ 
+.well-come { 
+    padding-bottom: 5%; 
+} 
+.info_bout_me {  
+    display: flex;  
+    flex-direction: column; 
+    padding-right: 5%;  
+    padding-top: 1%;  
+    align-items: flex-end; 
+} 
+ 
+.logistic { 
+    border-left: medium solid black; 
+    border-right: medium solid black; 
+    border-bottom: medium solid black; 
+    border-width: 3px; 
+    font-size: 20px; 
+    display:flex; 
+    padding:0.7%; 
+    justify-content: flex-start; 
+    align-items: left; 
+} 
+ 
+ 
+ 
+a { 
+    text-decoration: none; 
+    margin: 5px; 
+    color: inherit; 
+    cursor: pointer; 
+} 
+ 
+a:hover { 
+    color: rgb(235, 115, 115); 
+} 
+ 
+.no-click { 
+    pointer-events: none; 
+    cursor: default; 
+} 
+ 
+.aside { 
+    border-left: medium solid black; 
+    border-right: medium solid black; 
+    min-width: 12%; 
+    max-width: 12%; 
+    height: auto; 
+    min-height: 100vh; 
+    border-width: 3px; 
+    display:flex; 
+    flex-direction: column; 
+    justify-content: left; 
+    color: inherit; 
+    font-size: 27px; 
+    
+} 
+ 
+.aside-title { 
+    padding-bottom: 15px; 
+    margin-left: 2%; 
+    color: inherit; 
+} 
+ 
+.aside-content { 
+    margin-left: 2%; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    color: inherit; 
+    justify-content: center; 
+} 
+ 
+ 
+.section-info { 
+    display: flex; 
+    flex-grow: 1; 
+    flex-direction: row; 
+    padding-bottom: 10px; 
+    margin-top: 0%; 
+    margin-left: 4%; 
+    white-space: nowrap; 
+    justify-content: space-between; 
+    margin-right: 40px; 
+} 
+ 
+.section-content { 
+    margin-left: 4%; 
+    padding-top: -3%; 
+} 
+.avatar { 
+    /* display: flex; */ 
+    padding:0.5%; 
+    width: 250px;  
+    margin-top: 3%; 
+    height: auto;  
+    padding-right: 3% ; 
+    align-items: right; 
+} 
+ 
+.section-info-text { 
+    margin-right: 40px; 
+} 
+ 
+.front-content { 
+    display: flex; 
+    flex-direction:column; 
+} 
+ 
+.back-content { 
+    display: flex; 
+    flex-direction:column; 
+} 
+ 
+.vids { 
+    margin-top: 7%; 
+    margin-bottom: 7%; 
+    height: 350px; 
+    width: 60%; 
+    /* justify-content: center; */ 
+    margin-left:20%; 
+} 
+ 
+.under { 
+    text-decoration:underline; 
+} 
+ 
+.footer { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    padding: 20px 20px;  
+} 
+ 
+.footer-title { 
+    text-decoration: none; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 550px; 
+    max-width: 550px; 
+    border: 2px solid black;
+    font-size: 19px;
+  }
+
+table head {
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    
+    /* border: 1px solid black; */
+  }
+
+th {
+    background-color: rgb(240, 199, 138);
+  }
+
+.checkbox-container {
+    justify-content: center;
+    padding-top: 8%;
+    
+  }
+
+input[type="checkbox"] {
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px; 
+}
+
+.adres {
+    padding-left: 40px;
+}
+
+
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+}   
+
+
+.card {
+    flex-direction: column;
+    padding: 50px;
+}
+.def-pic {
+    width: 150px;
+    height: auto;
+}
