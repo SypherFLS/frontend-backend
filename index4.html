@@ -1,0 +1,31 @@
+<html>  
+    <head>  
+        <meta charset="utf-8">  
+        <title>Маин паге</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="styles/style_main.css" type="text/css">  
+    </head> 
+    <body class="uniq-page">
+        <div class="rectangle">
+
+            <form id="contactForm" class="rec-pos">
+                <a class="label_text">Заполните форму</a>
+                <label class="move-text-into" for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <!-- Поле для ввода электронной почты -->
+                <label class="move-text-into" for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <!-- Многострочное текстовое поле для комментариев -->
+                <label class="move-text-into" for="comments">Комментарии:</label>
+                <textarea id="comments" name="comments"></textarea>
+            
+                <!-- Кнопка отправки формы -->
+                <button type="submit">Отправить</button>
+            </form> 
+            <script src="main.js"></script>
+        </div>
+        
+    </body>
+
